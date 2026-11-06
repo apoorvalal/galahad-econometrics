@@ -1,0 +1,9 @@
+{
+  "wheel_sha256": "9afedc695fcff2e3d6384c9ce86fc0bdad6d677add102169d72a838238f273e9",
+  "version": "0.1.0",
+  "python": "3.12.9",
+  "installed_outside_source_tree": true,
+  "quickstart_estimator_fits": 13,
+  "custom_criterion_solve": true,
+  "all_successful": true
+}
