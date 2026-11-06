@@ -9,6 +9,13 @@ import shutil
 import subprocess
 from pathlib import Path
 
+DOC_STYLE = """<style id="prototype-document-layout">
+main {min-width:0} main a {overflow-wrap:anywhere}
+main pre, main div.sourceCode {max-width:100%;overflow-x:auto}
+main table {display:block;max-width:100%;overflow-x:auto;font-size:.9rem}
+main .katex-display {max-width:100%;overflow-x:auto}
+</style>"""
+
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
@@ -44,6 +51,8 @@ def main():
         source_path = output / f"{stem}.qmd"
         source_path.write_text(front + body)
         subprocess.run(["quarto", "render", source_path.name, "--quiet"], cwd=output, check=True)
+        html = output / f"{stem}.html"
+        html.write_text(html.read_text().replace("</head>", DOC_STYLE + "\n</head>"))
         source_path.unlink()
     for artifact in ["benchmark-compatibility.json", "install-check.json"]:
         src = root / "validation" / artifact
