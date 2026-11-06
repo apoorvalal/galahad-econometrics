@@ -1,0 +1,460 @@
+{
+  "checks": [
+    {
+      "page": "index",
+      "width": 1440,
+      "title": "GALAHAD Econometrics notebooks",
+      "math": 0,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [],
+      "tables": [
+        10
+      ],
+      "sourceCells": 0,
+      "visibleSourceCells": 0,
+      "documentWidth": 1440,
+      "privateNotebookLinks": 9,
+      "errors": []
+    },
+    {
+      "page": "autodiff_mnl",
+      "width": 1440,
+      "title": "Multinomial logit with JAX derivatives and GALAHAD",
+      "math": 2,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        4
+      ],
+      "sourceCells": 5,
+      "visibleSourceCells": 5,
+      "documentWidth": 1440,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "banana",
+      "width": 1440,
+      "title": "Trust regions and cubic regularization on Rosenbrock's function",
+      "math": 5,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        5
+      ],
+      "sourceCells": 4,
+      "visibleSourceCells": 4,
+      "documentWidth": 1440,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "example",
+      "width": 1440,
+      "title": "Regression from a criterion to an estimate",
+      "math": 5,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        5
+      ],
+      "sourceCells": 6,
+      "visibleSourceCells": 6,
+      "documentWidth": 1440,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "gmm",
+      "width": 1440,
+      "title": "Instrumental variables, GMM and the score bootstrap",
+      "math": 12,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        3,
+        3,
+        4
+      ],
+      "sourceCells": 6,
+      "visibleSourceCells": 6,
+      "documentWidth": 1440,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "likelihood_comparison",
+      "width": 1440,
+      "title": "Comparing solvers on three likelihood criteria",
+      "math": 0,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        10
+      ],
+      "sourceCells": 4,
+      "visibleSourceCells": 4,
+      "documentWidth": 1440,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "likelihood_comparison_estimators",
+      "width": 1440,
+      "title": "Estimator interfaces across seven econometric families",
+      "math": 2,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        9,
+        5,
+        6
+      ],
+      "sourceCells": 7,
+      "visibleSourceCells": 7,
+      "documentWidth": 1440,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "nonlinear_least_squares",
+      "width": 1440,
+      "title": "Exact-Hessian nonlinear least squares",
+      "math": 3,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        7,
+        8,
+        5
+      ],
+      "sourceCells": 7,
+      "visibleSourceCells": 7,
+      "documentWidth": 1440,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "regularization_comparison",
+      "width": 1440,
+      "title": "Ridge paths with matched penalty conventions",
+      "math": 1,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        5,
+        3
+      ],
+      "sourceCells": 5,
+      "visibleSourceCells": 5,
+      "documentWidth": 1440,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "synth",
+      "width": 1440,
+      "title": "Synthetic control with QPB",
+      "math": 1,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        5,
+        4,
+        3
+      ],
+      "sourceCells": 7,
+      "visibleSourceCells": 7,
+      "documentWidth": 1440,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "title": "GALAHAD Econometrics notebooks",
+      "math": 0,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [],
+      "tables": [
+        10
+      ],
+      "sourceCells": 0,
+      "visibleSourceCells": 0,
+      "documentWidth": 390,
+      "privateNotebookLinks": 9,
+      "errors": []
+    },
+    {
+      "page": "autodiff_mnl",
+      "width": 390,
+      "title": "Multinomial logit with JAX derivatives and GALAHAD",
+      "math": 2,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        4
+      ],
+      "sourceCells": 5,
+      "visibleSourceCells": 5,
+      "documentWidth": 390,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "banana",
+      "width": 390,
+      "title": "Trust regions and cubic regularization on Rosenbrock's function",
+      "math": 5,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        5
+      ],
+      "sourceCells": 4,
+      "visibleSourceCells": 4,
+      "documentWidth": 390,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "example",
+      "width": 390,
+      "title": "Regression from a criterion to an estimate",
+      "math": 5,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        5
+      ],
+      "sourceCells": 6,
+      "visibleSourceCells": 6,
+      "documentWidth": 390,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "gmm",
+      "width": 390,
+      "title": "Instrumental variables, GMM and the score bootstrap",
+      "math": 12,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        3,
+        3,
+        4
+      ],
+      "sourceCells": 6,
+      "visibleSourceCells": 6,
+      "documentWidth": 390,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "likelihood_comparison",
+      "width": 390,
+      "title": "Comparing solvers on three likelihood criteria",
+      "math": 0,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        10
+      ],
+      "sourceCells": 4,
+      "visibleSourceCells": 4,
+      "documentWidth": 390,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "likelihood_comparison_estimators",
+      "width": 390,
+      "title": "Estimator interfaces across seven econometric families",
+      "math": 2,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        9,
+        5,
+        6
+      ],
+      "sourceCells": 7,
+      "visibleSourceCells": 7,
+      "documentWidth": 390,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "nonlinear_least_squares",
+      "width": 390,
+      "title": "Exact-Hessian nonlinear least squares",
+      "math": 3,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        7,
+        8,
+        5
+      ],
+      "sourceCells": 7,
+      "visibleSourceCells": 7,
+      "documentWidth": 390,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "regularization_comparison",
+      "width": 390,
+      "title": "Ridge paths with matched penalty conventions",
+      "math": 1,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        5,
+        3
+      ],
+      "sourceCells": 5,
+      "visibleSourceCells": 5,
+      "documentWidth": 390,
+      "privateNotebookLinks": 1,
+      "errors": []
+    },
+    {
+      "page": "synth",
+      "width": 390,
+      "title": "Synthetic control with QPB",
+      "math": 1,
+      "mathErrors": 0,
+      "unrenderedMath": 0,
+      "images": [
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        }
+      ],
+      "tables": [
+        5,
+        4,
+        3
+      ],
+      "sourceCells": 7,
+      "visibleSourceCells": 7,
+      "documentWidth": 390,
+      "privateNotebookLinks": 1,
+      "errors": []
+    }
+  ],
+  "externalResourcesBlocked": true,
+  "allSourceCellsVisible": true
+}

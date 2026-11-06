@@ -70,3 +70,19 @@ library result passes its own stricter `gtol=1e-8` check and native status zero.
 
 Validation of these finite samples does not certify identification, finite-MLE
 existence, global optimization of a nonlinear criterion or inference coverage.
+
+## Worked notebooks
+
+The nine notebooks add 51 executed code cells and 13 embedded figures. Each runs
+in its own fresh kernel, using the project's interpreter, from an empty temporary
+working directory. No example reads saved estimates, downloads data or imports
+notebook helper modules. All nine complete without error outputs; all displayed
+tables have at most ten rows including headers.
+
+Execution counts, code hashes, notebook hashes and package versions are saved in
+[notebooks.json](notebooks.json); the compact structural checks are in
+[notebook-audit.json](notebook-audit.json). The 45 original library tests still
+pass. These examples add documentation and optional dependencies without
+changing the numerical library implementation or repeating the earlier timing
+benchmark. The notebook likelihood comparison is its own small three-repetition
+demonstration, with separate instrumented convergence runs.

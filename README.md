@@ -28,6 +28,22 @@ Silicon is the locally validated platform; other platforms depend on upstream
 wheel/build availability. The wrapper never changes process-wide thread or
 OpenMP settings on import. Use your normal BLAS/OpenMP thread policy.
 
+## Worked notebooks
+
+The [executed notebook collection](notebooks/) covers custom criteria, Rosenbrock,
+likelihood comparisons, all seven estimator families, ridge paths, IV/GMM and
+bootstrap inference, exact-Hessian NLS, synthetic control, and JAX multinomial
+logit. Code, checks and figures live together in interactive cells.
+
+```sh
+uv sync --extra notebooks --extra autodiff
+uv run --extra notebooks --extra autodiff jupyter lab notebooks/
+```
+
+JAX is optional and required only for the multinomial-logit example. The
+[notebook guide](notebooks/README.md) explains running the collection in fresh
+kernels and exporting HTML without repeating any fits.
+
 ## Fit a model
 
 ```python

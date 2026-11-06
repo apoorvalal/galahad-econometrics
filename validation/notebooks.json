@@ -1,0 +1,112 @@
+{
+  "python": "3.12.9",
+  "versions": {
+    "galahad-econometrics": "0.1.0",
+    "galahad-optrove": "5.5.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "nbclient": "0.11.0"
+  },
+  "notebooks": [
+    {
+      "notebook": "autodiff_mnl.ipynb",
+      "code_cells": 5,
+      "png_outputs": 1,
+      "seconds": 2.3195979595184326,
+      "code_sha256": "84e0093a05d7f3ca2c185d3cae2279022fbed60c7189257d1179a946f5a0ecc6",
+      "notebook_sha256": "c0f8ec127a53eca04e77e9af3832b31f7da7d3190a9823bd72cac64dd8f2323e",
+      "fresh_kernel": true,
+      "empty_working_directory": true,
+      "errors": 0
+    },
+    {
+      "notebook": "banana.ipynb",
+      "code_cells": 4,
+      "png_outputs": 1,
+      "seconds": 1.411493374966085,
+      "code_sha256": "b2e6645c2ba0b259f832c0ba6849d0f901011d6d95d6439379fd8ce9d5b23842",
+      "notebook_sha256": "8bb140e176002babf39ae425e2987e82a35390c8ad64c468c55bed6bebce4324",
+      "fresh_kernel": true,
+      "empty_working_directory": true,
+      "errors": 0
+    },
+    {
+      "notebook": "example.ipynb",
+      "code_cells": 6,
+      "png_outputs": 1,
+      "seconds": 1.070297916419804,
+      "code_sha256": "3106c549bb4d5dcd1bb8bd7a4c4210a7e02e582530c505b596e685c1bbd08853",
+      "notebook_sha256": "fdb8df41609e61ebff48e1c0d58ff94e1e4704b8e8e1dcf8ec3640a3700043eb",
+      "fresh_kernel": true,
+      "empty_working_directory": true,
+      "errors": 0
+    },
+    {
+      "notebook": "gmm.ipynb",
+      "code_cells": 6,
+      "png_outputs": 1,
+      "seconds": 1.4880626257508993,
+      "code_sha256": "2aa12a433e0c26970b4f0378ade709efe11d90fb723991649ba2eb342b48a3c6",
+      "notebook_sha256": "7ed6f661e175f1375d6501e2887a3fe78b9f9615212aac45eccb59fbbd2a049f",
+      "fresh_kernel": true,
+      "empty_working_directory": true,
+      "errors": 0
+    },
+    {
+      "notebook": "likelihood_comparison.ipynb",
+      "code_cells": 4,
+      "png_outputs": 1,
+      "seconds": 1.2223695004358888,
+      "code_sha256": "24fb7e703e8ef9f4bf27558ac1794425904cdaf26402c8f07af01d4baed05ff3",
+      "notebook_sha256": "5aa951147b32afcca9d77f2c61df11f7bb584e2a10cb8988e6bbf68a663d3304",
+      "fresh_kernel": true,
+      "empty_working_directory": true,
+      "errors": 0
+    },
+    {
+      "notebook": "likelihood_comparison_estimators.ipynb",
+      "code_cells": 7,
+      "png_outputs": 2,
+      "seconds": 1.0879065422341228,
+      "code_sha256": "bcaec33c1cb0f9376206099093ac1a21021c8fc1c38ce8e1c429367205fedd98",
+      "notebook_sha256": "0b0165a953360e17eeef5cbabe1e85ebca2dea2b638f5e67b22cc4d4ac558821",
+      "fresh_kernel": true,
+      "empty_working_directory": true,
+      "errors": 0
+    },
+    {
+      "notebook": "nonlinear_least_squares.ipynb",
+      "code_cells": 7,
+      "png_outputs": 2,
+      "seconds": 1.2472288748249412,
+      "code_sha256": "e7bacb19e735b4f2d056867721ac049bb7f06134e9068c77d6094882834f437a",
+      "notebook_sha256": "fdbb99d3ecf38dddf25b8eebd8ee46913261e236db0e79a195576ab3f09cc39f",
+      "fresh_kernel": true,
+      "empty_working_directory": true,
+      "errors": 0
+    },
+    {
+      "notebook": "regularization_comparison.ipynb",
+      "code_cells": 5,
+      "png_outputs": 1,
+      "seconds": 1.6895752493292093,
+      "code_sha256": "564cf5ec9098d1d2aa98ed0024ea30d44f2a742bee8264e8d85d1fa994ebf982",
+      "notebook_sha256": "fa57d72afb82b134f3a6a99799a6f7e376a61d1f1ef3096950735d337fdf77f4",
+      "fresh_kernel": true,
+      "empty_working_directory": true,
+      "errors": 0
+    },
+    {
+      "notebook": "synth.ipynb",
+      "code_cells": 7,
+      "png_outputs": 3,
+      "seconds": 1.3605261659249663,
+      "code_sha256": "11ccc00b3eba4aec8a887540468dce73ab5d4ace9f826e8a283aa47e5501033f",
+      "notebook_sha256": "ebbc66e007db91d6c66de75557eca407c50cd08e613642c858ea5e7710d7f56f",
+      "fresh_kernel": true,
+      "empty_working_directory": true,
+      "errors": 0
+    }
+  ],
+  "all_executed_without_errors": true
+}

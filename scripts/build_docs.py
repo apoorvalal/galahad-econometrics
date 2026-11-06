@@ -35,6 +35,7 @@ def main():
         title, body = content.split("\n", 1)
         for original, dest in pages.items():
             body = body.replace(f"]({original})", f"]({dest}.html)")
+        body = body.replace("](notebooks/README.md)", "](notebooks/index.html)")
         if stem == "index":
             body += (
                 "\n## Package downloads\n\n"
@@ -54,7 +55,12 @@ def main():
         html = output / f"{stem}.html"
         html.write_text(html.read_text().replace("</head>", DOC_STYLE + "\n</head>"))
         source_path.unlink()
-    for artifact in ["benchmark-compatibility.json", "install-check.json"]:
+    for artifact in [
+        "benchmark-compatibility.json",
+        "install-check.json",
+        "notebooks.json",
+        "notebook-audit.json",
+    ]:
         src = root / "validation" / artifact
         if src.exists():
             shutil.copy2(src, output / artifact)

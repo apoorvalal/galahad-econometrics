@@ -18,3 +18,9 @@
 - Numerical test results and benchmarks are retained in validation/. Build outputs,
   venvs and disposable caches must stay untracked. Do not create a public remote
   or publish a package release without a request to do so.
+- Notebooks are interactive, top-to-bottom sources with retained outputs, rather
+  than scripts hidden inside main(). Keep all numerical examples self-contained.
+- Before committing notebook revisions, run the complete scripts/run_notebooks.py
+  collection with the notebooks/autodiff extras. The final execution manifest must
+  cover every notebook. Use scripts/render_notebooks.py for reading copies; it
+  exports retained outputs with --no-execute and must not change source notebooks.
